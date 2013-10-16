@@ -12,3 +12,56 @@ body {
     width: 1040px;
     margin-top: 50px;
 }
+
+/* dark blue toolbar #153E68 */
+.navbar-fixed-top {
+    background-color: #153E68;
+}
+
+.navbar-fixed-top,
+.navbar-header,
+.navbar-nav {
+    height: 68px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-default .navbar-header > a,
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-default .navbar-header > a:hover,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ccc;
+}
+
+.navbar-nav li a.active {
+    border-bottom: 2px solid #00AEEF;
+    font-weight: bold;
+}
+
+.navbar-fixed-top .navbar-header > a,
+.navbar-fixed-top .navbar-nav > li > a {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.navbar-fixed-top .navbar-header > a {
+    font-size: 12px;
+}
+
+.navbar-fixed-top .navbar-header > a img {
+    vertical-align: bottom;
+}
+
+
+.navbar-fixed-top a.notransform {
+    text-transform: normal;
+}
