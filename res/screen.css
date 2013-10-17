@@ -5,15 +5,49 @@ html {
 
 body {
     font-size: 14px;
+    line-height: 18px;
 }
 
 .container {
     max-width: none !important;
     width: 1040px;
-    margin-top: 50px;
+    margin-top: 68px;
+}
+
+.statement {
+    font-family: "Times New Roman", serif;
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 34px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #153E68;
+    font-size: 13px;
+}
+
+h4 {
+    font-family: "Times New Roman", serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #153E68;
+}
+
+a {
+    color: rgba(0,0,0,0.7);
+}
+
+a:hover {
+    color: rgba(0,0,0,0.9);
 }
 
 /* dark blue toolbar #153E68 */
+.navbar-default {
+    border: 0;
+}
+
 .navbar-fixed-top {
     background-color: #153E68;
 }
@@ -61,7 +95,26 @@ body {
     vertical-align: bottom;
 }
 
-
 .navbar-fixed-top a.notransform {
     text-transform: normal;
+}
+
+/* dark sections */
+.dark {
+    background-color: #00699F;
+    color: white;
+}
+
+.dark h4 {
+    color: white;
+}
+
+/* "credential" images */
+.cred {
+    vertical-align: top;
+}
+
+/* contact form */
+#contact {
+
 }
