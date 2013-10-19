@@ -51,7 +51,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-6 col-xs-6">
         <img src="res/maritime-header.jpg" />
         <h3> Maritime Law </h3>
         <p>
@@ -62,7 +62,7 @@
           soluptasit a dolut aligendam fac errovit.
         </p>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-6 col-xs-6">
         <img src="res/personal-injury-header.jpg" />
         <h3> Personal Injury Law </h3>
         <p>
@@ -123,7 +123,7 @@
 <article id="profile">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-6 col-xs-6">
         <div>
           <img src="res/profile.jpg" />
         </div>
@@ -131,7 +131,7 @@
         <div> <a href="#"> View my profile on Super Lawyers </a> </div>
         <div> <a href="#"> View my profile on Avvo </a> </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-6 col-xs-6">
         <h4> Christopher W. Goodroe </h4>
         <p>
           Christopher W. Goodroe has built his practice on the
@@ -167,25 +167,24 @@
 <article id="contact" class="dark">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-6 col-xs-6">
         <form>
           <label> Name </label>
-          <input type="text" placeholder="Your name" />
+          <input name="name" type="text" placeholder="Your name" />
           <label> Email </label>
-          <input type="text" placeholder="Enter your email address" />
+          <input name="email" type="text" placeholder="Enter your email address" />
           <label> Message </label>
-          <textarea>
-          </textarea>
-          <button class="button"></button>
+          <textarea name="message"></textarea>
+          <button id="send-email" type="button" class="btn btn-primary"> Submit </button>
         </form>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-6 col-xs-6">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-6 col-xs-6">
             <label> Tel </label>
             <span class="value" rel="phone"> 510-969-2369 </span>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-6 col-xs-6">
             <label> Fax </label>
             <span class="value" rel="fax"> 510-969-4767 </span>
           </div>
@@ -206,10 +205,9 @@
   </div>
 </article>
 
-<div class="footer">
-&copy; 2013 C.W.GOODROE LAW, All Rights Reserved
+<div id="footer">
+  &copy; 2013 C.W.GOODROE LAW, All Rights Reserved
 </div>
-
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="http://code.jquery.com/jquery.js"></script>

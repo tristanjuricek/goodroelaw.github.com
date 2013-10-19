@@ -11,7 +11,15 @@ body {
 .container {
     max-width: none !important;
     width: 1040px;
+}
+
+.container:first-child {
     margin-top: 68px;
+}
+
+.container {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .statement {
@@ -114,7 +122,57 @@ a:hover {
     vertical-align: top;
 }
 
+#home .container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 /* contact form */
 #contact {
+    padding-top: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
 
+#contact label {
+    display: block;
+    color: #0f3153;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#contact textarea {
+    min-height: 100px;
+}
+
+#contact .btn {
+    text-transform: uppercase;
+    color: white;
+    background-color: #00afea;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#contact input,
+#contact .value {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#footer {
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    font-size: 10px;
+    background-color: #0f3f65;
+    padding-left: 45px;
+    padding-right: 45px;
 }
