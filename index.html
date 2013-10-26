@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
   <title> C.W. Goodroe </title>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="res/bootstrap/css/bootstrap.min.css" media="screen, projection" />
   <link rel="stylesheet" href="res/screen.css" media="screen, projection" />
   <meta name="description" content="Central web presense for CW Goodroe Law, providing legal services for injury and maritime cases." />
   <meta name="keywords" content="law, legal, lawyer, injury, maritime, personal injury, chris goodroe, c.w. goodroe" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
     <script src="../../assets/js/html5shiv.js"></script>
@@ -16,7 +17,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="navbar-header">
     <a class="navbar-brand" href="#">
       <img src="res/cwg-header.png" alt="CwG" title="Law offices of C.W. Goodroe" />
@@ -24,11 +25,11 @@
     </a>
   </div>
   <ul class="nav navbar-nav navbar-right">
-    <li><a class="active" href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a class="notransform" href="#">FAQs</a></li>
-    <li><a href="#">Profile</a></li>
-    <li><a href="#">Contact</a></li>
+    <li class="active"><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a class="notransform" href="#faq">FAQs</a></li>
+    <li><a href="#profile">Profile</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
@@ -37,6 +38,8 @@
     <img id="hero" src="res/blue_boat.png" alt="Offices of C.W. Goodroe">
   </div>
 </article>
+
+<img class="sep" src="res/sep.png" alt="Separator"/>
 
 <article id="about" class="light">
   <div class="container">
@@ -52,7 +55,7 @@
     </div>
     <div class="row">
       <div class="col-md-6 col-sm-6 col-xs-6">
-        <img src="res/maritime-header.jpg" />
+        <img src="res/maritime-header.jpg" alt="Maritime Law" >
         <h3> Maritime Law </h3>
         <p>
           Alique litaepu daepro com nimil ipsapi tae sima
@@ -63,7 +66,7 @@
         </p>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-6">
-        <img src="res/personal-injury-header.jpg" />
+        <img src="res/personal-injury-header.jpg" alt="Personal Injury Law">
         <h3> Personal Injury Law </h3>
         <p>
           Alique litaepu daepro com nimil ipsapi tae sima
@@ -77,79 +80,100 @@
   </div>
 </article>
 
+<img class="sep" src="res/sep.png" alt="Separator" style="top: 83px"/>
+
 <article id="faq" class="dark">
   <div class="container">
-    <h2> Frequently Asked Questions </h2>
-    <div class="btn-group">
-      <button id="faq-maritime" type="button" class="btn btn-default"> Maritime </button>
-      <button id="faq-injury" type="button" class="btn btn-default"> Personal Injury </button>
-    </div>
-    <div id="faq-maritime-slides" class="active">
-      <div class="slide active">
-          <h4>
-            Does resis ut facimusape voluptati conemporunt endas
-            nonec tus dolupta tiate nuscum soluptasit a dolut?
-          </h4>
-          <p>
-            La evendebist optatemque nonsecte plam, inus alit, omnimil lorrunt ioreperio to
-            vollum earchillaut auditium volorporum evelign atiatium quia de dolore siment re,
-            omnis a aditaturem rentis andeliq uatemqu isquati optaspe pariossed mossed que
-            quae. Ut quam rat eos nisto etum re nullorit eos alignis exerit alia si. Alique litaepu
-            daepro com nimil ipsapi tae sima duciant iuntore pa que qui omm odici dolupta
-            tur re, sis ut facimu sape voluptati conemporunt endas nonectus dolupta tiate nus,
-            si cum delos soluptasit a dolut aligendam fac errovit.
-          </p>
+    <div class="row">
+      <div class="col-md-1 col-sm-1 col-xs-1">
       </div>
-      <div class="slide hidden">
-          <h4>
-            Does resis ut facimusape voluptati conemporunt endas
-            nonec tus dolupta tiate nuscum soluptasit a dolut?
-          </h4>
-          <p>
-            La evendebist optatemque nonsecte plam, inus alit, omnimil lorrunt ioreperio to
-            vollum earchillaut auditium volorporum evelign atiatium quia de dolore siment re,
-            omnis a aditaturem rentis andeliq uatemqu isquati optaspe pariossed mossed que
-            quae. Ut quam rat eos nisto etum re nullorit eos alignis exerit alia si. Alique litaepu
-            daepro com nimil ipsapi tae sima duciant iuntore pa que qui omm odici dolupta
-            tur re, sis ut facimu sape voluptati conemporunt endas nonectus dolupta tiate nus,
-            si cum delos soluptasit a dolut aligendam fac errovit.
-          </p>
+      <div class="col-md-10 col-sm-10 col-xs-10 col">
+        <h3> Frequently Asked Questions </h3>
+        <div class="btn-group">
+          <button id="faq-maritime" type="button" class="btn btn-default active"> Maritime </button>
+          <button id="faq-injury" type="button" class="btn btn-default"> Personal Injury </button>
+        </div>
+      </div>
+      <div class="col-md-1 col-sm-1 col-xs-1">
       </div>
     </div>
-    <div id="faq-injury-slides" class="hidden">
-      <div class="slide active">
-        <h4>
-          Does resis ut facimusape voluptati conemporunt endas
-          nonec tus dolupta tiate nuscum soluptasit a dolut?
-        </h4>
-        <p>
-          La evendebist optatemque nonsecte plam, inus alit, omnimil lorrunt ioreperio to
-          vollum earchillaut auditium volorporum evelign atiatium quia de dolore siment re,
-          omnis a aditaturem rentis andeliq uatemqu isquati optaspe pariossed mossed que
-          quae. Ut quam rat eos nisto etum re nullorit eos alignis exerit alia si. Alique litaepu
-          daepro com nimil ipsapi tae sima duciant iuntore pa que qui omm odici dolupta
-          tur re, sis ut facimu sape voluptati conemporunt endas nonectus dolupta tiate nus,
-          si cum delos soluptasit a dolut aligendam fac errovit.
-        </p>
+    <div class="row">
+      <div id="faq-prev"  class="col-md-1 col-sm-1 col-xs-1">
+        <img src="res/left-arrow.png" alt="Previous" style="margin-top: 20px" />
       </div>
-      <div class="slide hidden">
-        <h4>
-          Una bloga para ti? Ho soy una momento por vafor!
-        </h4>
-        <p>
-          You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man.
-        </p>
+      <div class="col-md-10 col-sm-10 col-xs-10 col">
+        <div id="faq-maritime-slides">
+          <div class="slide active">
+              <h4>
+                Does resis ut facimusape voluptati conemporunt endas
+                nonec tus dolupta tiate nuscum soluptasit a dolut?
+              </h4>
+              <p>
+                La evendebist optatemque nonsecte plam, inus alit, omnimil lorrunt ioreperio to
+                vollum earchillaut auditium volorporum evelign atiatium quia de dolore siment re,
+                omnis a aditaturem rentis andeliq uatemqu isquati optaspe pariossed mossed que
+                quae. Ut quam rat eos nisto etum re nullorit eos alignis exerit alia si. Alique litaepu
+                daepro com nimil ipsapi tae sima duciant iuntore pa que qui omm odici dolupta
+                tur re, sis ut facimu sape voluptati conemporunt endas nonectus dolupta tiate nus,
+                si cum delos soluptasit a dolut aligendam fac errovit.
+              </p>
+          </div>
+          <div class="slide hidden">
+              <h4>
+                No. Nobo no. Does nonec tus dolupta tiate nuscum soluptasit a dolut?
+              </h4>
+              <p>
+                La evendebist optatemque nonsecte plam, inus alit, omnimil lorrunt ioreperio to
+                vollum earchillaut auditium volorporum evelign atiatium quia de dolore siment re,
+                omnis a aditaturem rentis andeliq uatemqu isquati optaspe pariossed mossed que
+                quae. Ut quam rat eos nisto etum re nullorit eos alignis exerit alia si. Alique litaepu
+                daepro com nimil ipsapi tae sima duciant iuntore pa que qui omm odici dolupta
+                tur re, sis ut facimu sape voluptati conemporunt endas nonectus dolupta tiate nus,
+                si cum delos soluptasit a dolut aligendam fac errovit.
+              </p>
+          </div>
+        </div>
+        <div id="faq-injury-slides">
+          <div class="slide active">
+            <h4>
+              OMG Kittens?
+            </h4>
+            <p>
+              Kittens.
+              La evendebist optatemque nonsecte plam, inus alit, omnimil lorrunt ioreperio to
+              vollum earchillaut auditium volorporum evelign atiatium quia de dolore siment re,
+              omnis a aditaturem rentis andeliq uatemqu isquati optaspe pariossed mossed que
+              quae. Ut quam rat eos nisto etum re nullorit eos alignis exerit alia si. Alique litaepu
+              daepro com nimil ipsapi tae sima duciant iuntore pa que qui omm odici dolupta
+              tur re, sis ut facimu sape voluptati conemporunt endas nonectus dolupta tiate nus,
+              si cum delos soluptasit a dolut aligendam fac errovit.
+            </p>
+          </div>
+          <div class="slide hidden">
+            <h4>
+              Una bloga para ti? Ho soy una momento por vafor!
+            </h4>
+            <p>
+              You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="faq-next"  class="col-md-1 col-sm-1 col-xs-1">
+        <img src="res/right-arrow.png" alt="Next" style="margin-top: 20px">
       </div>
     </div>
   </div>
 </article>
+
+<img class="sep" src="res/sep.png" alt="Separator"/>
 
 <article id="profile">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-6 col-xs-6">
         <div>
-          <img src="res/profile.jpg" />
+          <img src="res/profile.jpg" alt="Profile">
         </div>
         <br/>
         <div> <a href="#"> View my profile on Super Lawyers </a> </div>
@@ -180,13 +204,16 @@
           <a href="#">download full bio</a>
         </p>
         <div>
-          <img class="cred" src="res/logo1.jpg" />
-          <img class="cred" src="res/logo2.jpg" />
+          <img class="cred" src="res/logo1.jpg" alt="Logo 1">
+          <img class="cred" src="res/logo2.jpg" alt="Logo 2">
         </div>
       </div>
     </div>
   </div>
 </article>
+
+<img class="sep" src="res/sep.png" alt="Separator" style="top: 14px"/>
+
 
 <article id="contact" class="dark">
   <div class="container">
@@ -237,7 +264,6 @@
 <script src="http://code.jquery.com/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="res/bootstrap/js/bootstrap.min.js"></script>
-<script src="res/faq.js"></script>
 <script src="res/main.js"></script>
 
 </body>
