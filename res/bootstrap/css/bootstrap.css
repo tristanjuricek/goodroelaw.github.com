@@ -597,7 +597,7 @@ dd {
   margin-left: 0;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {*/
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -626,7 +626,7 @@ dd {
   .dl-horizontal dd:after {
     clear: both;
   }
-}
+/*}*/
 
 abbr[title],
 abbr[data-original-title] {
@@ -913,7 +913,7 @@ pre code {
   width: 100%;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {*/
   .container {
     max-width: 750px;
   }
@@ -1065,7 +1065,7 @@ pre code {
   .col-sm-offset-11 {
     margin-left: 91.66666666666666%;
   }
-}
+/*}*/
 
 @media (min-width: 992px) {
   .container {
@@ -4065,11 +4065,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
   clear: both;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {*/
   .navbar-header {
     float: left;
   }
-}
+/*}*/
 
 .navbar-collapse {
   max-height: 340px;
@@ -4237,6 +4237,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   line-height: 20px;
 }
 
+/*()
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -4258,11 +4259,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
   }
-}
+}*/
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {*/
   .navbar-nav {
-    float: left;
+    /*float: left;*/
     margin: 0;
   }
   .navbar-nav > li {
@@ -4272,7 +4273,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-}
+/*}*/
 
 @media (min-width: 768px) {
   .navbar-left {
