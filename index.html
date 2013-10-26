@@ -81,12 +81,11 @@
   <div class="container">
     <h2> Frequently Asked Questions </h2>
     <div class="btn-group">
-      <button type="button" class="btn btn-default"> Maritime </button>
-      <button type="button" class="btn btn-default"> Personal Injury </button>
+      <button id="faq-maritime" type="button" class="btn btn-default"> Maritime </button>
+      <button id="faq-injury" type="button" class="btn btn-default"> Personal Injury </button>
     </div>
-    <div class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
+    <div id="faq-maritime-slides" class="active">
+      <div class="slide active">
           <h4>
             Does resis ut facimusape voluptati conemporunt endas
             nonec tus dolupta tiate nuscum soluptasit a dolut?
@@ -100,22 +99,47 @@
             tur re, sis ut facimu sape voluptati conemporunt endas nonectus dolupta tiate nus,
             si cum delos soluptasit a dolut aligendam fac errovit.
           </p>
-        </div>
-        <div class="item">
+      </div>
+      <div class="slide hidden">
           <h4>
-            Una bloga para ti? Ho soy una momento por vafor!
+            Does resis ut facimusape voluptati conemporunt endas
+            nonec tus dolupta tiate nuscum soluptasit a dolut?
           </h4>
           <p>
-            You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man.
+            La evendebist optatemque nonsecte plam, inus alit, omnimil lorrunt ioreperio to
+            vollum earchillaut auditium volorporum evelign atiatium quia de dolore siment re,
+            omnis a aditaturem rentis andeliq uatemqu isquati optaspe pariossed mossed que
+            quae. Ut quam rat eos nisto etum re nullorit eos alignis exerit alia si. Alique litaepu
+            daepro com nimil ipsapi tae sima duciant iuntore pa que qui omm odici dolupta
+            tur re, sis ut facimu sape voluptati conemporunt endas nonectus dolupta tiate nus,
+            si cum delos soluptasit a dolut aligendam fac errovit.
           </p>
-        </div>
       </div>
-      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-        <span class="icon-prev"></span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-        <span class="icon-next"></span>
-      </a>
+    </div>
+    <div id="faq-injury-slides" class="hidden">
+      <div class="slide active">
+        <h4>
+          Does resis ut facimusape voluptati conemporunt endas
+          nonec tus dolupta tiate nuscum soluptasit a dolut?
+        </h4>
+        <p>
+          La evendebist optatemque nonsecte plam, inus alit, omnimil lorrunt ioreperio to
+          vollum earchillaut auditium volorporum evelign atiatium quia de dolore siment re,
+          omnis a aditaturem rentis andeliq uatemqu isquati optaspe pariossed mossed que
+          quae. Ut quam rat eos nisto etum re nullorit eos alignis exerit alia si. Alique litaepu
+          daepro com nimil ipsapi tae sima duciant iuntore pa que qui omm odici dolupta
+          tur re, sis ut facimu sape voluptati conemporunt endas nonectus dolupta tiate nus,
+          si cum delos soluptasit a dolut aligendam fac errovit.
+        </p>
+      </div>
+      <div class="slide hidden">
+        <h4>
+          Una bloga para ti? Ho soy una momento por vafor!
+        </h4>
+        <p>
+          You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man.
+        </p>
+      </div>
     </div>
   </div>
 </article>
@@ -170,11 +194,11 @@
       <div class="col-md-6 col-sm-6 col-xs-6">
         <form>
           <label> Name </label>
-          <input name="name" type="text" placeholder="Your name" />
-          <label> Email </label>
-          <input name="email" type="text" placeholder="Enter your email address" />
+          <input id="contact-name" name="name" type="text" placeholder="Your name" />
+          <label > Email </label>
+          <input id="contact-email" name="email" type="text" placeholder="Enter your email address" />
           <label> Message </label>
-          <textarea name="message"></textarea>
+          <textarea id="contact-message" name="message"></textarea>
           <button id="send-email" type="button" class="btn btn-primary"> Submit </button>
         </form>
       </div>
@@ -213,6 +237,8 @@
 <script src="http://code.jquery.com/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="res/bootstrap/js/bootstrap.min.js"></script>
+<script src="res/faq.js"></script>
+<script src="res/main.js"></script>
 
 </body>
 </html>
