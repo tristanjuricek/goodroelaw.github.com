@@ -165,6 +165,18 @@ a:hover {
     -webkit-box-shadow: none;
 }
 
+/* pictures */
+#photo-profile {
+    max-width: 509px;
+}
+
+#photo-avvo {
+    max-width: 160px;
+}
+
+#photo-martindale {
+    max-width: 280px;
+}
 
 /* contact form */
 #contact {
