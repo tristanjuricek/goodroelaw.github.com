@@ -218,6 +218,18 @@ a:hover {
     margin-bottom: 10px;
 }
 
+#associations .position {
+    width: 80px;
+}
+
+#associations td {
+    padding-bottom: 20px;
+}
+
+#associations .duration {
+    width: 120px;
+}
+
 #footer {
     height: 45px;
     line-height: 45px;

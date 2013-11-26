@@ -6,6 +6,8 @@ jQuery(function() {
 
     $("body").scrollspy({ target: "#navbar" });
 
+    $(".expandable").expander();
+
     // Only show the branding in the top left when we are not focused on the
     // home page.
     $(".navbar-brand").hide();
@@ -43,7 +45,7 @@ jQuery(function() {
     });
 
     // When clicking the faq buttons, shift visibility of the major containers
-    $("#faq-injury-slides").hide();
+    $("#faq-maritime-slides").hide();
 
     $("#faq-maritime").click(function() {
         var $this = $(this);
