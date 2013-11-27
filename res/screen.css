@@ -141,7 +141,7 @@ a:hover {
 .dark {
     background-color: #00699F;
     color: white;
-    width: 100%;
+    min-width: 1040px;
 }
 
 .dark h4 {
@@ -255,4 +255,5 @@ a:hover {
     background-color: #0f3f65;
     padding-left: 45px;
     padding-right: 45px;
+    min-width: 1040px;
 }
