@@ -121,6 +121,22 @@ a:hover {
     text-transform: normal;
 }
 
+#title {
+    text-transform: uppercase;
+    position: absolute;
+    font-weight: normal;
+    font-size: 38px;
+    left: -250px;
+    top: 45px;
+}
+
+#subtitle {
+    font-style: italic;
+    position: absolute;
+    left: -250px;
+    top: 105px;
+}
+
 /* dark sections */
 .dark {
     background-color: #00699F;

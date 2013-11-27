@@ -3,7 +3,6 @@
 <head>
   <title> C.W. Goodroe </title>
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="res/bootstrap/css/bootstrap.css" media="screen, projection" />
   <link rel="stylesheet" href="res/screen.css" media="screen, projection" />
   <meta name="description" content="Central web presense for CW Goodroe Law, providing legal services for injury and maritime cases." />
@@ -14,6 +13,7 @@
     <script src="../../assets/js/html5shiv.js"></script>
     <script src="../../assets/js/respond.min.js"></script>
   <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
@@ -39,9 +39,9 @@
       <div class="col-md-6 col-sm-6 col-xs-6">
         <img id="hero" src="res/blue_boat.png" alt="Offices of C.W. Goodroe">
       </div>
-      <div class="col-md-6 col-sm-6 col-xs-6" style="text-align: center;">
-        <h1 style="text-transform: uppercase; font-size: 53px; margin-top: 90px; font-weight: normal;"> The Law Offices of C.W. Goodroe </h1>
-        <div class="statement">
+      <div class="col-md-6 col-sm-6 col-xs-6">
+        <h1 id="title"> The Law Offices of C.W. Goodroe </h1>
+        <div id="subtitle" class="statement">
           Passionate Intelligent Representation
         </div>
       </div>
@@ -51,8 +51,6 @@
     </div>
   </div>
 </article>
-
-<img class="sep" src="res/sep.png" alt="Separator"/>
 
 <article id="about" class="light">
   <div class="container">
@@ -197,7 +195,7 @@ src="http://www.thenationaltriallawyers.org/images/NTL-top-100-member.png" width
       </div>
       <div class="col-md-10 col-sm-10 col-xs-10 col">
         <h3> Frequently Asked Questions </h3>
-        <div class="btn-group">
+        <div class="btn-group" style="display: none;">
           <button id="faq-injury" type="button" class="btn btn-default active"> Personal Injury </button>
           <button id="faq-maritime" type="button" class="btn btn-default"> Maritime </button>
         </div>
