@@ -6,7 +6,7 @@ jQuery(function() {
 
     $("#player-container").html(
         "<iframe src='//player.vimeo.com/video/81828303' "+
-        " width='800' height='600' frameborder='0' webkitallowfullscreen " +
+        " width='426' height='320' frameborder='0' webkitallowfullscreen " +
         " mozallowfullscreen allowfullscreen></iframe>");
 
     $("body").scrollspy({ target: "#navbar" });
