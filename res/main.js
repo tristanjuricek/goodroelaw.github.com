@@ -4,6 +4,12 @@
 
 jQuery(function() {
 
+    $("#player-container").html(
+        "<iframe src='//player.vimeo.com/video/81828303' "+
+        " badge='0' byline='0' portrait='0' title='0' " +
+        " width='426' height='320' frameborder='0' webkitallowfullscreen " +
+        " mozallowfullscreen allowfullscreen></iframe>");
+
     $("body").scrollspy({ target: "#navbar" });
 
     $(".expandable").expander();

@@ -24,9 +24,9 @@ body {
 
 .statement {
     font-family: "Times New Roman", serif;
-    font-size: 28px;
-    line-height: 34px;
-    margin-bottom: 34px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 24px;
 }
 
 h3 {
@@ -58,6 +58,15 @@ a:hover {
     left: 50%;
     right: 50%;
     top: -14px;
+}
+
+#player-container {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 /* dark blue toolbar #153E68 */
